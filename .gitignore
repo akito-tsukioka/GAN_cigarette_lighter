@@ -1,0 +1,5 @@
+.DS_Store
+.Trash-0
+.devcontainer
+.ipynb_checkpoints
+__pycache__

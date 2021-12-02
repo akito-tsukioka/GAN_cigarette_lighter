@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  python3:
+    build: .
+    image: ubuntu:16.04
+    ports:
+      - '8888:8888'
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    container_name: GAN_cigarette_lighter
+    volumes:
+      - ./src:/root/src
